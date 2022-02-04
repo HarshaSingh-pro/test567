@@ -1,0 +1,36 @@
+h1{
+    font-size: 50px;
+    background-color: aqua;
+padding: 200px;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: burlywood;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+a:link {
+    color:red
+}
+a:visited{
+    color:yellow
+}
+a:hover{
+    color:blue;
+    opacity: 1;
+}
+.item {
+   position: relative;
+}
+.item p {
+  position:absolute;
+  top: 50px;
+    
+}
+.item:hover{
+    opacity: 0.3;
+}
